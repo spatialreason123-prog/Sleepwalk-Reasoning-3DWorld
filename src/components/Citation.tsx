@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-const BIBTEX = `@inproceedings{images2action2026,
-  title={Images2Action: Benchmarking Vision-Language Models for Action Trajectory Prediction in Reconstructed 3D Environments},
+const BIBTEX = `@inproceedings{SleepWalk2026,
+  title={SleepWalk: Benchmarking Vision-Language Models for Action Trajectory Prediction in Reconstructed 3D Environments},
   author={Anonymous},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2026}
