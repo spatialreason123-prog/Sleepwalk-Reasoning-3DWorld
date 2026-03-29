@@ -68,7 +68,7 @@ const Index = () => {
             <div className="space-y-3">
               <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
                 <img 
-                  src="/Sleepwalk-Reasoning-3DWorld/gemini-result.png" 
+                  src="/Sleepwalk-Reasoning-3DWorld/gemini.png" 
                   alt="Gemini Robotics ER-1.5 Result" 
                   className="w-full h-full object-cover"
                 />
@@ -78,7 +78,7 @@ const Index = () => {
             <div className="space-y-3">
               <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
                 <img 
-                  src="/Sleepwalk-Reasoning-3DWorld/gpt-result.png" 
+                  src="/Sleepwalk-Reasoning-3DWorld/gpt5.png" 
                   alt="GPT-5-mini Result" 
                   className="w-full h-full object-cover"
                 />
@@ -88,7 +88,7 @@ const Index = () => {
             <div className="space-y-3">
               <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
                 <img 
-                  src="/Sleepwalk-Reasoning-3DWorld/qwen-result.png" 
+                  src="/Sleepwalk-Reasoning-3DWorld/qwen.png" 
                   alt="Qwen3-VL Result" 
                   className="w-full h-full object-cover"
                 />
