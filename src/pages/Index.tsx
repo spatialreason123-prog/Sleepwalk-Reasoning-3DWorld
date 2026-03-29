@@ -47,9 +47,9 @@ const Index = () => {
         {/* Methodology */}
         <section className="mb-16">
           <h2 className="section-heading">Methodology</h2>
-          <div className="bg-muted rounded-xl overflow-hidden mb-4">
+          <div className="bg-muted rounded-xl overflow-hidden mb-4 border border-border">
             <img 
-              src="/overview.png" 
+              src="/Sleepwalk-Reasoning-3DWorld/overview.png"
               alt="Methodology Diagram: 3D Scene Reconstruction → Trajectory Prediction → Humanoid Execution → Judge Ranking" 
               className="w-full h-auto"
             />
