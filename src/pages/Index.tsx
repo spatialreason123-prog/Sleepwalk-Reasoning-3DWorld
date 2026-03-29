@@ -74,7 +74,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center py-8 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            ECCV 2026 Submission
+            COLM 2026 Submission
           </p>
         </footer>
       </div>
