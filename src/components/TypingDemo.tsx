@@ -5,9 +5,7 @@ const TYPING_SPEED = 80;
 const PAUSE_AFTER_TYPING = 500;
 
 const models = [
-  { id: "gemini", name: "Gemini Robotics ER-1.5" },
-  { id: "gpt", name: "GPT-5-mini" },
-  { id: "qwen", name: "Qwen3-VL" },
+  { id: "simulation", name: "Humanoid Execution" },
 ];
 
 export function TypingDemo() {
@@ -74,27 +72,27 @@ export function TypingDemo() {
         </div>
       </div>
 
-      {/* Video Grid */}
-      <div className={`grid grid-cols-1 md:grid-cols-3 gap-4 transition-all duration-500 ${showVideos ? 'opacity-100 translate-y-0' : 'opacity-40 translate-y-2'}`}>
+      {/* Video Simulation */}
+      <div className={`max-w-3xl mx-auto transition-all duration-500 ${showVideos ? 'opacity-100 translate-y-0' : 'opacity-40 translate-y-2'}`}>
         {models.map((model, index) => (
-          <div key={model.id} className="space-y-2">
-            <div className="video-placeholder relative overflow-hidden">
+          <div key={model.id} className="space-y-4">
+            <div className="video-placeholder relative overflow-hidden rounded-xl border border-border aspect-video">
               <video
-                ref={(el) => (videoRefs.current[index] = el)}
+                ref={(el) => { videoRefs.current[index] = el; }}
                 id={`video-${model.id}`}
                 className="w-full h-full object-cover absolute inset-0"
                 loop
                 muted
                 playsInline
-                poster={`https://via.placeholder.com/400x225/f1f5f9/64748b?text=${encodeURIComponent(model.name)}`}
+                poster={`https://via.placeholder.com/800x450/f1f5f9/64748b?text=${encodeURIComponent(model.name)}`}
               >
                 {/* Replace src with actual video files */}
-                <source src={`/videos/${model.id}-demo.mp4`} type="video/mp4" />
+                <source src={`/Sleepwalk-Reasoning-3DWorld/videos/${model.id}-demo.mp4`} type="video/mp4" />
               </video>
               {!showVideos && (
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-12 h-12 rounded-full bg-background/80 flex items-center justify-center">
-                    <svg className="w-6 h-6 text-muted-foreground" fill="currentColor" viewBox="0 0 24 24">
+                  <div className="w-16 h-16 rounded-full bg-background/80 flex items-center justify-center">
+                    <svg className="w-8 h-8 text-muted-foreground" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M8 5v14l11-7z" />
                     </svg>
                   </div>
