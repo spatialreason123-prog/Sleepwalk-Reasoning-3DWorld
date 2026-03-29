@@ -48,13 +48,11 @@ const Index = () => {
         <section className="mb-16">
           <h2 className="section-heading">Methodology</h2>
           <div className="bg-muted rounded-xl overflow-hidden mb-4">
-            <div id="methodology-diagram" className="aspect-[16/9] flex items-center justify-center" style={{
-            backgroundImage: 'url(https://via.placeholder.com/1600x900/f1f5f9/64748b?text=Pipeline+Diagram)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
-          }}>
-              <span className="sr-only">Methodology Diagram Placeholder</span>
-            </div>
+            <img 
+              src="/overview.png" 
+              alt="Methodology Diagram: 3D Scene Reconstruction → Trajectory Prediction → Humanoid Execution → Judge Ranking" 
+              className="w-full h-auto"
+            />
           </div>
           <p className="text-sm text-muted-foreground text-center italic">
             3D Scene Reconstruction (Hunyuan3D-2.5) → Trajectory Prediction (VLMs) → Humanoid Execution (MotionGPT) → Judge Ranking.
