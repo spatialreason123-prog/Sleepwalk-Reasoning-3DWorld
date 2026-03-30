@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const TYPING_TEXT = "Walk to the sofa.";
+const TYPING_TEXT = "Walk from the bookshelf to the wall-mounted lamp.";
 const TYPING_SPEED = 80;
 const PAUSE_AFTER_TYPING = 500;
 
