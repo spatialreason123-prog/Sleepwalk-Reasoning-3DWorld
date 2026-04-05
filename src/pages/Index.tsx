@@ -64,6 +64,17 @@ const Index = () => {
           <h2 className="section-heading">Results</h2>
           
           {/* Side-by-side model outputs */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+          <div className="space-y-3">
+            <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
+              <img
+                src="https://via.placeholder.com/400x300/f1f5f9/64748b?text=Frontal+View"
+                alt="Frontal View"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-center font-medium text-foreground">Frontal View</p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="space-y-3">
               <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
