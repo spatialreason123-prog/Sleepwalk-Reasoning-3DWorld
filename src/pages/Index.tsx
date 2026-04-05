@@ -69,11 +69,11 @@ const Index = () => {
             <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
               <img
                 src="/Sleepwalk-Reasoning-3DWorld/1_obview.png"
-                alt="Frontal View"
+                alt="Scene"
                 className="w-full h-full object-cover"
               />
             </div>
-            <p className="text-center font-medium text-foreground">Frontal View</p>
+            <p className="text-center font-medium text-foreground">Scene</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="space-y-3">
