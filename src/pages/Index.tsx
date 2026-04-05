@@ -65,17 +65,20 @@ const Index = () => {
           
           {/* Side-by-side model outputs */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-          <div className="space-y-3">
-            <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
-              <img
-                src="/Sleepwalk-Reasoning-3DWorld/1_obview.png"
-                alt="Scene"
-                className="w-full h-full object-cover"
-              />
+  
+            {/* Scene */}
+            <div className="space-y-3">
+              <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
+                <img
+                  src="/Sleepwalk-Reasoning-3DWorld/1_obview.png"
+                  alt="Scene"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="text-center font-medium text-foreground">Scene</p>
             </div>
-            <p className="text-center font-medium text-foreground">Scene</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          
+            {/* Gemini */}
             <div className="space-y-3">
               <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
                 <img 
@@ -86,6 +89,8 @@ const Index = () => {
               </div>
               <p className="text-center font-medium text-foreground">Gemini Robotics ER-1.5</p>
             </div>
+          
+            {/* GPT */}
             <div className="space-y-3">
               <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
                 <img 
@@ -96,6 +101,8 @@ const Index = () => {
               </div>
               <p className="text-center font-medium text-foreground">GPT-5-mini</p>
             </div>
+          
+            {/* Qwen */}
             <div className="space-y-3">
               <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
                 <img 
@@ -106,6 +113,7 @@ const Index = () => {
               </div>
               <p className="text-center font-medium text-foreground">Qwen3-VL</p>
             </div>
+          
           </div>
 
           <ResultsTable />
