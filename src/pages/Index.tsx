@@ -68,7 +68,7 @@ const Index = () => {
           <div className="space-y-3">
             <div className="bg-muted rounded-xl aspect-[4/3] overflow-hidden border border-border">
               <img
-                src="https://via.placeholder.com/400x300/f1f5f9/64748b?text=Frontal+View"
+                src="/Sleepwalk-Reasoning-3DWorld/1_obview.png"
                 alt="Frontal View"
                 className="w-full h-full object-cover"
               />
