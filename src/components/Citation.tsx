@@ -3,7 +3,7 @@ import { useState } from "react";
 const BIBTEX = `@inproceedings{SleepWalk2026,
   title={SleepWalk: Benchmarking Vision-Language Models for Action Trajectory Prediction in Reconstructed 3D Environments},
   author={Anonymous},
-  booktitle={European Conference on Computer Vision (ECCV)},
+  booktitle={Conference on Language Modeling (COLM)},
   year={2026}
 }`;
 
