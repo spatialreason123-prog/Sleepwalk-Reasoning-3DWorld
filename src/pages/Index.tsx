@@ -16,20 +16,12 @@ const Index = () => {
           
           {/* Links */}
           <div className="flex flex-wrap justify-center gap-3">
-            <a href="#" className="paper-link">
-              <FileText className="w-4 h-4" />
-              Paper
-            </a>
-            <a href="#" className="paper-link-outline">
-              <Github className="w-4 h-4" />
-              Code
-            </a>
-            <a href="#" className="paper-link-outline">
-              <Play className="w-4 h-4" />
-              Demo
-            </a>
-          </div>
-        </header>
+          <a href="https://openreview.net/forum?id=vxbanfzUwV" className="paper-link">
+            <FileText className="w-4 h-4" />
+            Paper
+          </a>
+        </div>
+      </header>
 
         {/* Interactive Demo */}
         <section className="mb-20">
