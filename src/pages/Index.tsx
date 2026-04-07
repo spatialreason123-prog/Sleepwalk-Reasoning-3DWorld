@@ -1,7 +1,8 @@
 import { TypingDemo } from "@/components/TypingDemo";
 import { ResultsTable } from "@/components/ResultsTable";
 import { Citation } from "@/components/Citation";
-import { FileText, Github, Play } from "lucide-react";
+// import { FileText, Github, Play } from "lucide-react";
+import { FileText, Github, Play, Database } from "lucide-react";
 const Index = () => {
   return <div className="min-h-screen bg-background py-12 md:py-20">
       <div className="academic-container">
@@ -19,6 +20,10 @@ const Index = () => {
           <a href="https://openreview.net/forum?id=vxbanfzUwV" className="paper-link">
             <FileText className="w-4 h-4" />
             Paper
+          </a>
+          <a href="#" className="paper-link">
+            <Database className="w-4 h-4" />
+            Dataset
           </a>
         </div>
       </header>
